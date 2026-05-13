@@ -1,6 +1,14 @@
 
-siffror = input("Skriv in två siffror, separerade med ett mellanslag: ")
-a, b = map(float, siffror.split())
+
+
+
+
+
+a = False
+while a == True:
+ siffror = input("Skriv in två siffror, separerade med ett mellanslag: ---->  ")
+ a, b = map(float, siffror.split())
+
 
 def addition(a,b):
     ans = a + b
